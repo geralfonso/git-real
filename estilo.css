@@ -1,0 +1,65 @@
+html, body {	
+	height: 100%;
+}	
+
+.container {
+	background-image: url('fondo.jpg');
+	background-size: cover;	
+	background-position: center;
+	width: 100% !important;
+	height: 100%;
+	padding-top: 150px; 		
+	font-family: 'Lato', 'Roboto', 'Raleway', Helvetica, Verdana, Arial, "Times New Roman", sans-serif;	
+}
+
+.center{
+	text-align: center;
+
+}
+
+.black {
+	color: #000;
+}
+
+p {
+	padding-top: 15px;
+	padding-bottom: 15px 
+}
+
+h1 {	
+	font-size: 52px !important;
+	font-weight: bold !important;
+	background: linear-gradient(to bottom, #FEFEFE, #E6F9FF) !important;
+	-webkit-background-clip: text !important;
+  	-webkit-text-fill-color: transparent !important;	
+}
+
+.parallax {
+	background-color: rgba(255, 255, 255, 0.3);
+	padding-bottom: 20px;		
+	border-radius: 10px;
+	box-shadow: 
+		inset 1px 1px 10px rgba(255, 255, 255, 0.7),
+		2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+button {
+	margin-top: 15px !important;	
+	border: none !important;
+	border-radius: 40px !important;
+	background: #458FFF !important;
+	box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.35) !important;	
+}
+
+button:hover {
+		background: #3284FF !important;			
+	}
+
+.alert {			
+			margin-top: 15px !important;
+			margin-bottom: 1px !important;
+			display: none;			
+			box-shadow: 
+				inset 1px 1px 10px rgba(255, 255, 255, 0.7),
+				2px 2px 2px 0 rgba(0, 0, 0, 0.5);			
+		}
